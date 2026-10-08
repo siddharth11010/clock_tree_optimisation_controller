@@ -28,22 +28,33 @@ meta:
     #Netgen.LVS: null
     #Checker.LVS: null
 
-DESIGN_NAME: chip_top
+DESIGN_NAME: ibex_demo_system
 VERILOG_FILES:
-- dir::../src/chip_top.sv
-- dir::../src/chip_core.sv
+# Commenting chip_top
+# - dir::../src/chip_top.sv
+# - dir::../src/chip_core.sv
+
+# Adding files of ibex_demo_system
+- dir::../src/rtl/ibex_demo_system.sv
+- dir::../src/rtl/system/ibex_demo_system.sv
+- dir::../src/vendor/lowrisc_ip/ip/prim/rtl/prim_assert.sv
+
+VERILOG_INCLUDE_DIRS:
+- dir::../src/include/
+- dir::../src/vendor/lowrisc_ip/ip/prim/rtl/
 
 # Enable plugin for better SystemVerilog support
-# USE_SLANG: True
-# SLANG_ARGUMENTS: ['--keep-hierarchy']
+USE_SLANG: True
+SLANG_ARGUMENTS: ['--keep-hierarchy']
 
 # Slightly smaller file sizes
 PRIMARY_GDSII_STREAMOUT_TOOL: klayout
 
 # SDC files
-PNR_SDC_FILE: dir::chip_top.sdc
-SIGNOFF_SDC_FILE: dir::chip_top.sdc
-FALLBACK_SDC: dir::chip_top.sdc
+## I used pin_boolean.xdc changed name as asic_timing.sdc replacing chip_top.sdc, also changed content of it
+PNR_SDC_FILE: dir::asic_timing.sdc
+SIGNOFF_SDC_FILE: dir::asic_timing.sdc
+FALLBACK_SDC: dir::asic_timing.sdc
 
 # Power / ground nets
 VDD_NETS:
@@ -62,9 +73,10 @@ IGNORE_DISCONNECTED_MODULES:
 - gf180mcu_ws_ip__marker
 
 # Clock
-CLOCK_PORT: clk_PAD
+CLOCK_PORT: clk_i
 CLOCK_NET: clk_pad/Y
-CLOCK_PERIOD: 40 # 25 MHz
+## CLOCK_PERIOD: 40 # 25 MHz
+CLOCK_PERIOD: 20 # 50 MHz
 
 # Overfix hold violations
 PL_RESIZER_HOLD_SLACK_MARGIN: 0.35

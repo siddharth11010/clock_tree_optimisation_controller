@@ -1,4 +1,23 @@
+# LibreLane / OpenLane output runs
 runs/
+.librelane/
+*.gds
+*.lef
+*.def
+
+# Verilator & C++ build outputs
+obj_dir/
+*.o
+*.a
+Vtop
+
+# Logs, temporary files, & Python caches
+__pycache__/
+*.pyc
+*.log
+
+# From template
+# runs/
 __pycache__/
 gf180mcu/
 gf180_drc.lyrdb
