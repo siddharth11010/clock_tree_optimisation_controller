@@ -1,0 +1,1223 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2.1 (lin64) Build 6403652 Thu Mar 19 13:47:00 MDT 2026
+| Date         : Fri Oct  9 01:30:24 2026
+| Host         : HomeLab-Latitude-3410 running 64-bit CachyOS
+| Command      : report_methodology -file top_boolean_methodology_drc_routed.rpt -pb top_boolean_methodology_drc_routed.pb -rpx top_boolean_methodology_drc_routed.rpx
+| Design       : top_boolean
+| Device       : xc7s50csga324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max checks: <unlimited>
+             Checks found: 231
++-----------+------------------+--------------------------------------------+--------+
+| Rule      | Severity         | Description                                | Checks |
++-----------+------------------+--------------------------------------------+--------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                | 165    |
+| LUTAR-1   | Warning          | LUT drives async reset alert               | 2      |
+| SYNTH-6   | Warning          | Timing of a RAM block might be sub-optimal | 32     |
+| SYNTH-15  | Warning          | Byte wide write enable not inferred        | 32     |
++-----------+------------------+--------------------------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/FSM_sequential_state_q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/FSM_sequential_state_q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/FSM_sequential_state_q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/address_q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/address_q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/address_q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/address_q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/address_q_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/address_q_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/address_q_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/data_q_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[33]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[34]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[35]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[36]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[37]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[38]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[39]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[40]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dr_q_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[abits][4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[abits][5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[abits][6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[abits][7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[abits][8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[abits][9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[dmihardreset]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[dmireset]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[dmistat][10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[dmistat][11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[idle][12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[idle][13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[idle][14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[version][0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[version][1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[version][2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[version][3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/dtmcs_q_reg[zero1][31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/error_q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[33]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[34]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[35]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[36]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#147 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[37]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#148 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[38]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#149 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[39]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#150 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#151 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[40]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#152 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#153 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#154 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#155 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#156 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#157 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/data_q_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#158 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/pending_q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#159 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/u_prim_sync_reqack/gen_rz_hs_protocol.ack_sync/u_sync_1/gen_xilinx.u_impl_xilinx/q_o_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#160 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/u_prim_sync_reqack/gen_rz_hs_protocol.ack_sync/u_sync_2/gen_xilinx.u_impl_xilinx/q_o_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#161 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_req/u_prim_sync_reqack/gen_rz_hs_protocol.src_fsm_q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#162 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_resp/u_prim_sync_reqack/gen_rz_hs_protocol.dst_fsm_q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#163 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_resp/u_prim_sync_reqack/gen_rz_hs_protocol.req_sync/u_sync_1/gen_xilinx.u_impl_xilinx/q_o_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#164 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/i_cdc_resp/u_prim_sync_reqack/gen_rz_hs_protocol.req_sync/u_sync_2/gen_xilinx.u_impl_xilinx/q_o_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#165 Critical Warning
+Non-clocked sequential cell  
+The clock pin u_ibex_demo_system/gen_dm_top.u_dm_top/dap/i_dmi_cdc/jtag_combined_rstn_reg/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell clkgen/dmcontrol_q[dmactive]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_ibex_demo_system/core_instr_rvalid_reg/CLR,
+u_ibex_demo_system/core_instr_sel_dbg_reg/CLR,
+u_ibex_demo_system/dbg_device_rvalid_reg/CLR,
+u_ibex_demo_system/u_gpio/gp_o_reg[4]_lopt_replica/CLR,
+u_ibex_demo_system/u_gpio/gp_o_reg[5]_lopt_replica/CLR,
+u_ibex_demo_system/u_gpio/gp_o_reg[6]_lopt_replica/CLR,
+u_ibex_demo_system/u_gpio/gp_o_reg[7]_lopt_replica/CLR,
+u_ibex_demo_system/u_gpio/gp_o_reg[8]_lopt_replica/CLR,
+u_ibex_demo_system/u_gpio/gp_o_reg[9]_lopt_replica/CLR,
+u_ibex_demo_system/u_uart/tx_current_byte_q_reg[4]/CLR,
+u_ibex_demo_system/u_uart/tx_current_byte_q_reg[5]/CLR,
+u_ibex_demo_system/u_uart/tx_current_byte_q_reg[6]/CLR,
+u_ibex_demo_system/u_uart/tx_current_byte_q_reg[7]/CLR,
+u_ibex_demo_system/u_uart/tx_state_q_reg[0]/CLR,
+u_ibex_demo_system/u_uart/tx_state_q_reg[1]/CLR
+ (the first 15 of 1308 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell u_ibex_demo_system/gen_dm_top.u_dm_top/i_dm_csrs/valid_q[2]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) u_ibex_demo_system/u_top/g_clock_en_non_secure.core_busy_q_reg[0]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[20]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[21]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[22]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[23]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[24]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[25]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[26]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[27]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[28]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[29]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[30]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[31]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[8]/CLR,
+u_ibex_demo_system/u_top/u_ibex_core/load_store_unit_i/rdata_q_reg[9]/CLR
+ (the first 15 of 701 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+SYNTH-6#1 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#2 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#3 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#4 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#5 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_4, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#6 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_5, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#7 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_6, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#8 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_7, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#9 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#10 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#11 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#12 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#13 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_4, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#14 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_5, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#15 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_6, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#16 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_7, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#17 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#18 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#19 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#20 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#21 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_4, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#22 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_5, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#23 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_6, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#24 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_7, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#25 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_0, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#26 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_1, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#27 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_2, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#28 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_3, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#29 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_4, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#30 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_5, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#31 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_6, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-6#32 Warning
+Timing of a RAM block might be sub-optimal  
+The timing for the instance u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_7, implemented as a RAM block, might be sub-optimal as no output register was merged into the block.
+Related violations: <none>
+
+SYNTH-15#1 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_0 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#2 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_1 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#3 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_2 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#4 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_3 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#5 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_4 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#6 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_5 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#7 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_6 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#8 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_0_0_7 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#9 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_0 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#10 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_1 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#11 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_2 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#12 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_3 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#13 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_4 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#14 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_5 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#15 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_6 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#16 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_1_0_7 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#17 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_0 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#18 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_1 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#19 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_2 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#20 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_3 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#21 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_4 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#22 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_5 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#23 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_6 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#24 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_2_0_7 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#25 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_0 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#26 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_1 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#27 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_2 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#28 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_3 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#29 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_4 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#30 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_5 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#31 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_6 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+SYNTH-15#32 Warning
+Byte wide write enable not inferred  
+Byte wide write enable (BWWE) is not inferred for Block RAM u_ibex_demo_system/u_ram/u_ram/gen_generic.u_impl_generic/mem_reg_3_0_7 because address width (15) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired..
+Related violations: <none>
+
+

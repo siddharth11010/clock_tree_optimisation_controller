@@ -17,12 +17,62 @@ filesets:
       - src/rtl/fpga/top_artya7.sv
     file_type: systemVerilogSource
 
+  files_xilinx_cw305:
+    depend:
+      - lowrisc:ibex:rv_timer
+      - lowrisc:ibex:fpga_xilinx_shared
+    files:
+      - src/rtl/fpga/top_cw305.sv
+    file_type: systemVerilogSource
+
+  files_xilinx_cw312a35:
+    depend:
+      - lowrisc:ibex:rv_timer
+      - lowrisc:ibex:fpga_xilinx_shared
+    files:
+      - src/rtl/fpga/top_cw312a35.sv
+    file_type: systemVerilogSource
+
+  files_xilinx_blackboard:
+    depend:
+      - lowrisc:ibex:rv_timer
+      - lowrisc:ibex:fpga_xilinx_shared
+    files:
+      - src/rtl/fpga/top_blackboard.sv
+    file_type: systemVerilogSource
+
   files_xilinx_boolean:
     depend:
       - lowrisc:ibex:rv_timer
       - lowrisc:ibex:fpga_xilinx_shared
     files:
       - src/rtl/fpga/top_boolean.sv
+    file_type: systemVerilogSource
+
+  files_xilinx_nexysa7:
+    depend:
+      - lowrisc:ibex:rv_timer
+      - lowrisc:ibex:fpga_xilinx_shared
+    files:
+      - src/rtl/fpga/top_nexysa7.sv
+    file_type: systemVerilogSource
+
+  files_xilinx_artys7:
+    depend:
+      - lowrisc:ibex:rv_timer
+      - lowrisc:ibex:fpga_xilinx_shared
+    files:
+      - src/rtl/fpga/top_artys7.sv
+    file_type: systemVerilogSource
+
+  files_sonata:
+    depend:
+      - lowrisc:ibex:rv_timer
+      - lowrisc:ibex:fpga_xilinx_shared
+    files:
+      - src/rtl/fpga/top_sonata.sv
+      - src/rtl/fpga/clkgen_sonata.sv
+      - src/rtl/fpga/rst_ctrl.sv
     file_type: systemVerilogSource
 
   files_verilator:
@@ -34,20 +84,50 @@ filesets:
       - lowrisc:dv_dpi_c:uartdpi:0.1
       - lowrisc:dv_dpi_sv:uartdpi:0.1
     files:
-      - dv/verilator/top_verilator.sv: { file_type: systemVerilogSource }
-      - dv/verilator/ibex_demo_system.cc: { file_type: cppSource }
-      - dv/verilator/ibex_demo_system.h:  { file_type: cppSource, is_include_file: true}
-      - dv/verilator/ibex_demo_system_main.cc: { file_type: cppSource }
-      - dv/verilator/demo_system_verilator_lint.vlt:  { file_type: vlt }
+      - src/dv/verilator/top_verilator.sv: { file_type: systemVerilogSource }
+      - src/dv/verilator/ibex_demo_system.cc: { file_type: cppSource }
+      - src/dv/verilator/ibex_demo_system.h:  { file_type: cppSource, is_include_file: true}
+      - src/dv/verilator/ibex_demo_system_main.cc: { file_type: cppSource }
+      - src/dv/verilator/demo_system_verilator_lint.vlt:  { file_type: vlt }
 
   files_constraints:
     files:
-      - data/pins_artya7.xdc
+      - src/data/pins_artya7.xdc
+    file_type: xdc
+
+  files_constraints_cw305:
+    files:
+      - src/data/pins_cw305.xdc
+    file_type: xdc
+
+  files_constraints_cw312a35:
+    files:
+      - src/data/pins_cw312a35.xdc
+    file_type: xdc
+
+  files_constraints_blackboard:
+    files:
+      - src/data/pins_blackboard.xdc
     file_type: xdc
 
   files_constraints_boolean:
     files:
-      - data/pins_boolean.xdc
+      - src/data/pins_boolean.xdc
+    file_type: xdc
+
+  files_constraints_nexysa7:
+    files:
+      - src/data/pins_nexysa7.xdc
+    file_type: xdc
+
+  files_constraints_artys7:
+    files:
+      - src/data/pins_artys7.xdc
+    file_type: xdc
+
+  files_constraints_sonata:
+    files:
+      - src/data/pins_sonata.xdc
     file_type: xdc
 
 parameters:
@@ -86,6 +166,46 @@ targets:
     parameters:
       - SRAMInitFile
       - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx
+  synth_cw305:
+    <<: *default_target
+    default_tool: vivado
+    filesets_append:
+      - files_xilinx_cw305
+      - files_constraints_cw305
+    toplevel: top_cw305
+    tools:
+      vivado:
+        part: "xc7a100tftg256-2" # default to a100 part
+        #part: "xc7a35tftg256-2" # a35 option
+    parameters:
+      - SRAMInitFile
+      - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx
+  synth_cw312a35:
+    <<: *default_target
+    default_tool: vivado
+    filesets_append:
+      - files_xilinx_cw312a35
+      - files_constraints_cw312a35
+    toplevel: top_cw312a35
+    tools:
+      vivado:
+        part: "xc7a35tcsg324-1"
+    parameters:
+      - SRAMInitFile
+      - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx
+  synth_blackboard:
+    <<: *default_target
+    default_tool: vivado
+    filesets_append:
+      - files_xilinx_blackboard
+      - files_constraints_blackboard
+    toplevel: top_blackboard
+    tools:
+      vivado:
+        part: "xc7z007sclg400-1"
+    parameters:
+      - SRAMInitFile
+      - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx
   synth_boolean:
     <<: *default_target
     default_tool: vivado
@@ -96,6 +216,58 @@ targets:
     tools:
       vivado:
         part: "xc7s50csga324-1"
+    parameters:
+      - SRAMInitFile
+      - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx
+  synth_nexysa7:
+    <<: *default_target
+    default_tool: vivado
+    filesets_append:
+      - files_xilinx_nexysa7
+      - files_constraints_nexysa7
+    toplevel: top_nexysa7
+    tools:
+      vivado:
+        part: "xc7a100tcsg324-1"
+    parameters:
+      - SRAMInitFile
+      - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx
+  synth_artys7-25:
+    <<: *default_target
+    default_tool: vivado
+    filesets_append:
+      - files_xilinx_artys7
+      - files_constraints_artys7
+    toplevel: top_artys7
+    tools:
+      vivado:
+        part: "xc7s25csga324-1"
+    parameters:
+      - SRAMInitFile
+      - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx
+  synth_artys7-50:
+    <<: *default_target
+    default_tool: vivado
+    filesets_append:
+      - files_xilinx_artys7
+      - files_constraints_artys7
+    toplevel: top_artys7
+    tools:
+      vivado:
+        part: "xc7s50csga324-1"
+    parameters:
+      - SRAMInitFile
+      - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx
+  synth_sonata:
+    <<: *default_target
+    default_tool: vivado
+    filesets_append:
+      - files_sonata
+      - files_constraints_sonata
+    toplevel: top_sonata
+    tools:
+      vivado:
+        part: "xc7a50tcsg324-1"
     parameters:
       - SRAMInitFile
       - PRIM_DEFAULT_IMPL=prim_pkg::ImplXilinx

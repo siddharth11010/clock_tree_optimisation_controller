@@ -1,0 +1,2379 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/riscv-bin/uname"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/uname"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/uname"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/uname"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/uname"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/uname"
+    found: "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:213 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Linux - 7.2.8-1-cachyos - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/riscv-bin/gmake"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/gmake"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/gmake"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/gmake"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/gmake"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/gmake"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/gmake"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/gmake"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/gmake"
+      - "/home/siddharth/.local/stm32cube/bin/gmake"
+      - "/home/siddharth/.local/bin/gmake"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/gmake"
+      - "/opt/cuda/bin/gmake"
+      - "/home/siddharth/.platformio/penv/bin/gmake"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/gmake"
+      - "/home/siddharth/coding/ai/miniconda3/bin/gmake"
+      - "/home/siddharth/.nix-profile/bin/gmake"
+      - "/nix/var/nix/profiles/default/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/var/lib/flatpak/exports/bin/gmake"
+      - "/usr/lib/jvm/default/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/tmp/riscv-bin/make"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/make"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/make"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/make"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/make"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/make"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/make"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/make"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/make"
+      - "/home/siddharth/.local/stm32cube/bin/make"
+      - "/home/siddharth/.local/bin/make"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/make"
+      - "/opt/cuda/bin/make"
+      - "/home/siddharth/.platformio/penv/bin/make"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/make"
+      - "/home/siddharth/coding/ai/miniconda3/bin/make"
+      - "/home/siddharth/.nix-profile/bin/make"
+      - "/nix/var/nix/profiles/default/bin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-gcc"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /tmp/riscv-bin/riscv32-unknown-elf-gcc 
+      Build flags: -march=rv32imc_zicsr_zifencei;-mabi=ilp32
+      Id flags:  
+      
+      The output was:
+      1
+      riscv32-none-elf-gcc: fatal error: Cannot find suitable multilib set for ‘-march=rv32imc_zicsr_zifencei_zmmul_zca’/‘-mabi=ilp32’
+      compilation terminated.
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /tmp/riscv-bin/riscv32-unknown-elf-gcc 
+      Build flags: -march=rv32imc_zicsr_zifencei;-mabi=ilp32
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/4.4.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-ar"
+      - "ar"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-ar"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-strip"
+      - "strip"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-strip"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-ld"
+      - "ld"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-ld"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-nm"
+      - "nm"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-nm"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/riscv-bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-dlltool"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-dlltool"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-dlltool"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-dlltool"
+      - "/opt/cuda/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-dlltool"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-dlltool"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-dlltool"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-dlltool"
+      - "/usr/local/bin/riscv32-unknown-elf-dlltool"
+      - "/usr/bin/riscv32-unknown-elf-dlltool"
+      - "/bin/riscv32-unknown-elf-dlltool"
+      - "/usr/local/sbin/riscv32-unknown-elf-dlltool"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-dlltool"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-dlltool"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-dlltool"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-dlltool"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-dlltool"
+      - "/tmp/riscv-bin/dlltool"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/dlltool"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/dlltool"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/dlltool"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/dlltool"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/dlltool"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/dlltool"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/dlltool"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/dlltool"
+      - "/home/siddharth/.local/stm32cube/bin/dlltool"
+      - "/home/siddharth/.local/bin/dlltool"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/dlltool"
+      - "/opt/cuda/bin/dlltool"
+      - "/home/siddharth/.platformio/penv/bin/dlltool"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/dlltool"
+      - "/home/siddharth/coding/ai/miniconda3/bin/dlltool"
+      - "/home/siddharth/.nix-profile/bin/dlltool"
+      - "/nix/var/nix/profiles/default/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/var/lib/flatpak/exports/bin/dlltool"
+      - "/usr/lib/jvm/default/bin/dlltool"
+      - "/usr/bin/site_perl/dlltool"
+      - "/usr/bin/vendor_perl/dlltool"
+      - "/usr/bin/core_perl/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/riscv-bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-tapi"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-tapi"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-tapi"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-tapi"
+      - "/opt/cuda/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-tapi"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-tapi"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-tapi"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-tapi"
+      - "/usr/local/bin/riscv32-unknown-elf-tapi"
+      - "/usr/bin/riscv32-unknown-elf-tapi"
+      - "/bin/riscv32-unknown-elf-tapi"
+      - "/usr/local/sbin/riscv32-unknown-elf-tapi"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-tapi"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-tapi"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-tapi"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-tapi"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-tapi"
+      - "/tmp/riscv-bin/tapi"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/tapi"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/tapi"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/tapi"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/tapi"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/tapi"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/tapi"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/tapi"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/tapi"
+      - "/home/siddharth/.local/stm32cube/bin/tapi"
+      - "/home/siddharth/.local/bin/tapi"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/tapi"
+      - "/opt/cuda/bin/tapi"
+      - "/home/siddharth/.platformio/penv/bin/tapi"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/tapi"
+      - "/home/siddharth/coding/ai/miniconda3/bin/tapi"
+      - "/home/siddharth/.nix-profile/bin/tapi"
+      - "/nix/var/nix/profiles/default/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/lib/jvm/default/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-gcc-ar-16.2"
+      - "riscv32-unknown-elf-gcc-ar-16"
+      - "riscv32-unknown-elf-gcc-ar16"
+      - "riscv32-unknown-elf-gcc-ar"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ar-16.2"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ar-16"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ar-16"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ar-16"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ar-16"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ar-16"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ar-16"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ar16"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ar16"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ar16"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ar16"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ar16"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ar16"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ar"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ar"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ar"
+      - "/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ar"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "riscv32-unknown-elf-gcc-ranlib-16"
+      - "riscv32-unknown-elf-gcc-ranlib16"
+      - "riscv32-unknown-elf-gcc-ranlib"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ranlib-16.2"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ranlib-16"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ranlib16"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ranlib16"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ranlib16"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ranlib16"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ranlib"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ranlib"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+    found: "/tmp/riscv-bin/riscv32-unknown-elf-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1328 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      riscv32-none-elf-gcc (GCC) 16.2.0
+      Copyright (C) 2026 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-gcc-ar-"
+      - "riscv32-unknown-elf-gcc-ar-"
+      - "riscv32-unknown-elf-gcc-ar"
+      - "riscv32-unknown-elf-gcc-ar"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ar-"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ar-"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ar-"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ar-"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ar-"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ar-"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ar-"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ar"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ar"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ar"
+      - "/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ar"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ar"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ar"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ar"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ar"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ar"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ar"
+      - "/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ar"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ar"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "riscv32-unknown-elf-gcc-ranlib-"
+      - "riscv32-unknown-elf-gcc-ranlib-"
+      - "riscv32-unknown-elf-gcc-ranlib"
+      - "riscv32-unknown-elf-gcc-ranlib"
+    candidate_directories:
+      - "/tmp/riscv-bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/"
+      - "/home/siddharth/.local/stm32cube/bin/"
+      - "/home/siddharth/.local/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/"
+      - "/opt/cuda/bin/"
+      - "/home/siddharth/.platformio/penv/bin/"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/"
+      - "/home/siddharth/coding/ai/miniconda3/bin/"
+      - "/home/siddharth/.nix-profile/bin/"
+      - "/nix/var/nix/profiles/default/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ranlib-"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ranlib-"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ranlib-"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ranlib"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ranlib"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ranlib"
+      - "/tmp/riscv-bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/vivado/DocNav/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.local/stm32cube/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.local/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/ai/miniconda3/condabin/riscv32-unknown-elf-gcc-ranlib"
+      - "/opt/cuda/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.platformio/penv/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/coding/ai/miniconda3/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/home/siddharth/.nix-profile/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/nix/var/nix/profiles/default/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/local/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/local/sbin/riscv32-unknown-elf-gcc-ranlib"
+      - "/var/lib/flatpak/exports/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/lib/jvm/default/bin/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/site_perl/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/vendor_perl/riscv32-unknown-elf-gcc-ranlib"
+      - "/usr/bin/core_perl/riscv32-unknown-elf-gcc-ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/tmp/riscv-bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Model_Composer/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vivado/bin"
+        - "/home/siddharth/coding/vlsi/vivado/2025.2.1/Vitis/bin"
+        - "/home/siddharth/coding/vlsi/vivado/DocNav"
+        - "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/.venv/bin"
+        - "/nix/store/9511dgpja3a25crbil1a5silb6v1rbgd-devshell-dir/bin"
+        - "/nix/store/35yc81pz0q5yba14lxhn5r3jx5yg6c3l-bash-interactive-5.3p3/bin"
+        - "/nix/store/1mv3qz005gkbalxfghk4y3s8ayv4d2dl-bash-interactive-5.3p15/bin"
+        - "/home/siddharth/.local/stm32cube/bin"
+        - "/home/siddharth/.local/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/opt/cuda/bin"
+        - "/home/siddharth/.platformio/penv/bin"
+        - "/mnt/Abyss/media/Documents/sem7/cc/google-cloud-sdk/bin"
+        - "/home/siddharth/coding/ai/miniconda3/bin"
+        - "/home/siddharth/coding/ai/miniconda3/condabin"
+        - "/home/siddharth/.nix-profile/bin"
+        - "/nix/var/nix/profiles/default/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/CMakeScratch/TryCompile-Ni83mw"
+      binary: "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/CMakeScratch/TryCompile-Ni83mw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=rv32imc_zicsr_zifencei -mabi=ilp32"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-nostartfiles -T \"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld\""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/CMakeScratch/TryCompile-Ni83mw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b693a/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b693a.dir/build.make CMakeFiles/cmTC_b693a.dir/build
+        make[1]: Entering directory '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/CMakeScratch/TryCompile-Ni83mw'
+        Building C object CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj
+        /tmp/riscv-bin/riscv32-unknown-elf-gcc   -march=rv32imc_zicsr_zifencei -mabi=ilp32    -v -o CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/bin/riscv32-none-elf-gcc
+        Target: riscv32-none-elf
+        Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-with-cxx-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-with-cxx-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-gcc-16.2.0/include/c++/16.2.0/ --program-prefix=riscv32-none-elf- --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --disable-shared --enable-plugin --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --with-as=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-binutils-wrapper-2.46/bin/riscv32-none-elf-as --with-headers=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include --enable-__cxa_atexit --enable-long-long --enable-threads=single --enable-nls --with-newlib --disable-bootstrap --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=riscv32-none-elf
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-v' '-o' 'CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'CMakeFiles/cmTC_b693a.dir/'
+         /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/cc1 -quiet -v -idirafter /nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include -idirafter /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b693a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei_zmmul_zca -version -fno-omit-frame-pointer -o /tmp/ccmqtNru.s
+        GNU C23 (GCC) version 16.2.0 (riscv32-none-elf)
+        	compiled by GNU C version 16.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.20-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/include"
+        ignoring duplicate directory "/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include
+         /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed
+         /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/sys-include
+         /nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include
+        End of search list.
+        Compiler executable checksum: 3072ab5d3b0a06854fb23eb8c5f10be0
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-v' '-o' 'CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'CMakeFiles/cmTC_b693a.dir/'
+         /nix/store/ifcm1ak4q309plm9wm69kqkpgrbz9v8r-riscv32-none-elf-binutils-wrapper-2.46/bin/riscv32-none-elf-as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei_zmmul_zca -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj /tmp/ccmqtNru.s
+        GNU assembler version 2.46 (riscv32-none-elf) using BFD version (GNU Binutils) 2.46
+        COMPILER_PATH=/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib/:/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/
+        LIBRARY_PATH=/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib/:/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib/
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-v' '-o' 'CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_b693a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b693a.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/bin/riscv32-none-elf-gcc
+        COLLECT_LTO_WRAPPER=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/lto-wrapper
+        Target: riscv32-none-elf
+        Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-with-cxx-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-with-cxx-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-gcc-16.2.0/include/c++/16.2.0/ --program-prefix=riscv32-none-elf- --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c,c++ --disable-multilib --disable-shared --enable-plugin --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --with-as=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-binutils-wrapper-2.46/bin/riscv32-none-elf-as --with-headers=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include --enable-__cxa_atexit --enable-long-long --enable-threads=single --enable-nls --with-newlib --disable-bootstrap --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=riscv32-none-elf
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 16.2.0 (GCC) 
+        COMPILER_PATH=/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib/:/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/
+        LIBRARY_PATH=/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib/:/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib/
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-nostartfiles' '-T' '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld' '-v' '-o' 'cmTC_b693a' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'cmTC_b693a.'
+         /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/collect2 -plugin /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwcSRfM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc -melf32lriscv -X -o cmTC_b693a -L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib -L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib -L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib -L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib -L/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0 -L/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc -T /home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld
+        /nix/store/fdxf9s3jycphhl1ysxvblwln38yvii5h-riscv32-none-elf-binutils-2.46/bin/riscv32-none-elf-ld.bfd: warning: cmTC_b693a has a LOAD segment with RWX permissions
+        COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-nostartfiles' '-T' '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld' '-v' '-o' 'cmTC_b693a' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'cmTC_b693a.'
+        /tmp/riscv-bin/riscv32-unknown-elf-gcc -march=rv32imc_zicsr_zifencei -mabi=ilp32  -nostartfiles -T "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld" -v CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj -o cmTC_b693a
+        make[1]: Leaving directory '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/CMakeScratch/TryCompile-Ni83mw'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include]
+          add: [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed]
+          add: [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/sys-include]
+          add: [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include]
+        end of search list found
+        collapse include dir [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include] ==> [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include]
+        collapse include dir [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed] ==> [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed]
+        collapse include dir [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/sys-include] ==> [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/riscv32-none-elf/sys-include]
+        collapse include dir [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include] ==> [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include]
+        implicit include dirs: [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include;/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed;/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/riscv32-none-elf/sys-include;/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/CMakeScratch/TryCompile-Ni83mw']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b693a/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_b693a.dir/build.make CMakeFiles/cmTC_b693a.dir/build]
+        ignore line: [make[1]: Entering directory '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/CMakeScratch/TryCompile-Ni83mw']
+        ignore line: [Building C object CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/tmp/riscv-bin/riscv32-unknown-elf-gcc   -march=rv32imc_zicsr_zifencei -mabi=ilp32    -v -o CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/bin/riscv32-none-elf-gcc]
+        ignore line: [Target: riscv32-none-elf]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-with-cxx-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-with-cxx-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-gcc-16.2.0/include/c++/16.2.0/ --program-prefix=riscv32-none-elf- --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --disable-shared --enable-plugin --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --with-as=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-binutils-wrapper-2.46/bin/riscv32-none-elf-as --with-headers=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include --enable-__cxa_atexit --enable-long-long --enable-threads=single --enable-nls --with-newlib --disable-bootstrap --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=riscv32-none-elf]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-v' '-o' 'CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'CMakeFiles/cmTC_b693a.dir/']
+        ignore line: [ /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/cc1 -quiet -v -idirafter /nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include -idirafter /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b693a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -march=rv32imc_zicsr_zifencei -mabi=ilp32 -misa-spec=20191213 -march=rv32imc_zicsr_zifencei_zmmul_zca -version -fno-omit-frame-pointer -o /tmp/ccmqtNru.s]
+        ignore line: [GNU C23 (GCC) version 16.2.0 (riscv32-none-elf)]
+        ignore line: [	compiled by GNU C version 16.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.20-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/include"]
+        ignore line: [ignoring duplicate directory "/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include]
+        ignore line: [ /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed]
+        ignore line: [ /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/sys-include]
+        ignore line: [ /nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3072ab5d3b0a06854fb23eb8c5f10be0]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-v' '-o' 'CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'CMakeFiles/cmTC_b693a.dir/']
+        ignore line: [ /nix/store/ifcm1ak4q309plm9wm69kqkpgrbz9v8r-riscv32-none-elf-binutils-wrapper-2.46/bin/riscv32-none-elf-as -v --traditional-format -march=rv32imc_zicsr_zifencei -march=rv32imc_zicsr_zifencei_zmmul_zca -mabi=ilp32 -misa-spec=20191213 -o CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj /tmp/ccmqtNru.s]
+        ignore line: [GNU assembler version 2.46 (riscv32-none-elf) using BFD version (GNU Binutils) 2.46]
+        ignore line: [COMPILER_PATH=/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib/:/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/]
+        ignore line: [LIBRARY_PATH=/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib/:/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-v' '-o' 'CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_b693a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b693a.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/bin/riscv32-none-elf-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/lto-wrapper]
+        ignore line: [Target: riscv32-none-elf]
+        ignore line: [Configured with: ../gcc-16.2.0/configure --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-gcc-16.2.0 --with-gmp-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-with-cxx-6.3.0-dev/include --with-gmp-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-gmp-with-cxx-6.3.0/lib --with-mpfr-include=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2-dev/include --with-mpfr-lib=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-mpfr-4.2.2/lib --with-mpc=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-libmpc-1.4.1 --with-native-system-header-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include --with-build-sysroot=/ --with-gxx-include-dir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-gcc-16.2.0/include/c++/16.2.0/ --program-prefix=riscv32-none-elf- --enable-lto --disable-libstdcxx-pch --without-included-gettext --with-system-zlib --enable-static --enable-languages=c c++ --disable-multilib --disable-shared --enable-plugin --with-isl=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-isl-0.20 --with-as=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-riscv32-none-elf-binutils-wrapper-2.46/bin/riscv32-none-elf-as --with-headers=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include --enable-__cxa_atexit --enable-long-long --enable-threads=single --enable-nls --with-newlib --disable-bootstrap --build=x86_64-unknown-linux-gnu --host=x86_64-unknown-linux-gnu --target=riscv32-none-elf]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib/:/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/]
+        ignore line: [LIBRARY_PATH=/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib/:/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/:/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-nostartfiles' '-T' '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld' '-v' '-o' 'cmTC_b693a' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'cmTC_b693a.']
+        link line: [ /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/collect2 -plugin /nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/liblto_plugin.so -plugin-opt=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwcSRfM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc -melf32lriscv -X -o cmTC_b693a -L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib -L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib -L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib -L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib -L/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0 -L/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc -T /home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld]
+          arg [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/libexec/gcc/riscv32-none-elf/16.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccwcSRfM.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-melf32lriscv] ==> ignore
+          arg [-X] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b693a] ==> ignore
+          arg [-L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib] ==> dir [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib]
+          arg [-L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib] ==> dir [/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib]
+          arg [-L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib] ==> dir [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib]
+          arg [-L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib] ==> dir [/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib]
+          arg [-L/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0] ==> dir [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0]
+          arg [-L/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib] ==> dir [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib]
+          arg [CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--start-group] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgloss] ==> lib [gloss]
+          arg [--end-group] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-T] ==> ignore
+          arg [/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld] ==> ignore
+        ignore line: [/nix/store/fdxf9s3jycphhl1ysxvblwln38yvii5h-riscv32-none-elf-binutils-2.46/bin/riscv32-none-elf-ld.bfd: warning: cmTC_b693a has a LOAD segment with RWX permissions]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-march=rv32imc_zicsr_zifencei' '-mabi=ilp32' '-nostartfiles' '-T' '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld' '-v' '-o' 'cmTC_b693a' '-B' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-idirafter' '/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/include' '-idirafter' '/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/include-fixed' '-B' '/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-L/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib' '-L/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib' '-misa-spec=20191213' '-march=rv32imc_zicsr_zifencei_zmmul_zca' '-dumpdir' 'cmTC_b693a.']
+        ignore line: [/tmp/riscv-bin/riscv32-unknown-elf-gcc -march=rv32imc_zicsr_zifencei -mabi=ilp32  -nostartfiles -T "/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/../common/link.ld" -v CMakeFiles/cmTC_b693a.dir/CMakeCCompilerABI.c.obj -o cmTC_b693a]
+        ignore line: [make[1]: Leaving directory '/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/CMakeFiles/CMakeScratch/TryCompile-Ni83mw']
+        ignore line: []
+        ignore line: []
+        collapse library dir [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib] ==> [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib]
+        collapse library dir [/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib] ==> [/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib]
+        collapse library dir [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib] ==> [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib]
+        collapse library dir [/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib] ==> [/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib]
+        collapse library dir [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0] ==> [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0]
+        collapse library dir [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0/../../../../riscv32-none-elf/lib] ==> [/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/riscv32-none-elf/lib]
+        implicit libs: [gcc;c;gloss;gcc]
+        implicit objs: []
+        implicit dirs: [/nix/store/n3g61icxgrxrsm45vlqs2yqysxdsmcaj-newlib-riscv32-none-elf-4.6.0.20260123/riscv32-none-elf/lib;/nix/store/1lf5wli9ckhlm8kwhjihfbzm4nkq2sfm-riscv32-none-elf-gcc-16.2.0-lib/riscv32-none-elf/lib;/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/lib/gcc/riscv32-none-elf/16.2.0;/nix/store/9i44z0w1hyp1d9bsylqjxawbizv2c8wb-riscv32-none-elf-gcc-16.2.0/riscv32-none-elf/lib]
+        implicit fwks: []
+      
+      
+...

@@ -1,0 +1,28 @@
+CAPI=2:
+# Copyright lowRISC contributors.
+# Licensed under the Apache License, Version 2.0, see LICENSE for details.
+# SPDX-License-Identifier: Apache-2.0
+name: "lowrisc:ibex:demo_system_core"
+description: "Ibex Demo System core files always used regardless of target"
+filesets:
+  files_rtl_demo_system:
+    depend:
+      - lowrisc:ibex:ibex_top
+      - pulp:riscv:debug_module
+    files:
+      - src/rtl/system/jtag_id_pkg.sv
+      - src/rtl/system/ibex_demo_system.sv
+      - src/rtl/system/dm_top.sv
+      - src/rtl/system/debounce.sv
+      - src/rtl/system/gpio.sv
+      - src/rtl/system/pwm.sv
+      - src/rtl/system/pwm_wrapper.sv
+      - src/rtl/system/uart.sv
+      - src/rtl/system/spi_host.sv
+      - src/rtl/system/spi_top.sv
+    file_type: systemVerilogSource
+
+targets:
+  default:
+    filesets:
+      - files_rtl_demo_system

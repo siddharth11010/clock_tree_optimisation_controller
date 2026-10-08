@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/common/crt0.S
+demo_system_regs.h
+/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/common/demo_system_regs.h
+
+/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/common/demo_system_regs.h
+

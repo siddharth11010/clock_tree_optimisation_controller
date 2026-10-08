@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/cmake_install.cmake",
+		"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/common/cmake_install.cmake",
+		"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/demo/cmake_install.cmake",
+		"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/demo/hello_world/cmake_install.cmake",
+		"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/demo/lcd_st7735/cmake_install.cmake",
+		"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/demo/simpleserial-aes/cmake_install.cmake",
+		"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/demo/basic-passwdcheck/cmake_install.cmake",
+		"/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/sw/c/build/blank/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,2 @@
+/tmp/riscv-bin/riscv32-unknown-elf-ar qc libtiny-AES128.a "CMakeFiles/tiny-AES128.dir/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/vendor/newae/crypto/aes-independant.c.obj" "CMakeFiles/tiny-AES128.dir/home/siddharth/coding/vlsi/git_repo/BEproject/ibex-demo-system/vendor/newae/crypto/tiny-AES128-C/aes.c.obj"
+/tmp/riscv-bin/riscv32-unknown-elf-ranlib libtiny-AES128.a
